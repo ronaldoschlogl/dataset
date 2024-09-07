@@ -1,51 +1,29 @@
-from PIL import Image
 import os
+from PIL import Image
 
-def resize_and_crop(image, target_width, target_height):
-    img_width, img_height = image.size
-    
-    # Calcular a proporção para redimensionar a imagem sem distorção
-    aspect_ratio = min(target_width/img_width, target_height/img_height)
-    new_width = int(img_width * aspect_ratio)
-    new_height = int(img_height * aspect_ratio)
-    
-    # Redimensionar a imagem
-    image = image.resize((new_width, new_height))
-    
-    # Cortar a imagem centralizando-a
-    left = (new_width - target_width) / 2
-    top = (new_height - target_height) / 2
-    right = (new_width + target_width) / 2
-    bottom = (new_height + target_height) / 2
-    
-    image = image.crop((left, top, right, bottom))
-    
-    return image
+base_dir = 'dataset' 
+new_size = (128, 128)
 
-def process_images(image_paths, output_folder, target_width, target_height):
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
+def resize_images_in_folder(folder_path, new_size=(128, 128)):
+    for filename in os.listdir(folder_path):
+        if filename.lower().endswith(('.png')):
+            img_path = os.path.join(folder_path, filename)
+            try:
+                img = Image.open(img_path)
+                img_resized = img.resize(new_size)
+                img_resized.save(img_path)
+                print(f'Imagem {filename} redimensionada para {new_size} e salva em {img_path}')
+            except Exception as e:
+                print(f"Erro ao processar {img_path}: {e}")
+
+def resize_images_in_directory(base_dir, new_size=(128, 128)):
+    for root, dirs, files in os.walk(base_dir):
+        for subdir in dirs:
+            folder_path = os.path.join(root, subdir)
+            print(f'Processando a pasta: {folder_path}')
+            resize_images_in_folder(folder_path, new_size)
         
-    for img_path in image_paths:
-        with Image.open(img_path) as img:
-            # Redimensionar e cortar a imagem
-            processed_img = resize_and_crop(img, target_width, target_height)
-            
-            # Salvar a imagem processada
-            img_name = os.path.basename(img_path)
-            processed_img.save(os.path.join(output_folder, img_name))
-            print(f'Imagem {img_name} processada e salva em {output_folder}')
+        print(f'Processando a pasta raiz: {root}')
+        resize_images_in_folder(root, new_size)
 
-# Lista de caminhos para as imagens a serem processadas
-image_paths = ['9-10-V2-W.png', '9-10-V1-W.png', '9-10-V2-B.png', '9-10-V1-B.png']
-
-
-# Diretório de saída para as imagens processadas
-output_folder = 'caminho'
-
-# Dimensões alvo (Largura e Altura)
-target_width = 500
-target_height = 500
-
-# Processar as imagens
-process_images(image_paths, output_folder, target_width, target_height)
+resize_images_in_directory(base_dir, new_size)

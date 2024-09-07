@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>1211218</id>
+      <size>40</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2024-09-07 00:39:42.978754+00:00</created>
+      <updated>2024-09-07 00:47:01.516095+00:00</updated>
+      <subset>Train</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>39</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>1213488</id>
+          <start>0</start>
+          <stop>39</stop>
+          <url>https://app.cvat.ai/api/jobs/1211218</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>ronaldo2</username>
+        <email>ronaldoschlogl@alunos.utfpr.edu.br</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>corkscrew</name>
+          <color>#806080</color>
+          <type>corkscrew</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>dinner_plate</name>
+          <color>#d98227</color>
+          <type>dinner_plate</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>fork</name>
+          <color>#e0a0c0</color>
+          <type>fork</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>glass</name>
+          <color>#3417f3</color>
+          <type>glass</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>jar</name>
+          <color>#7d1041</color>
+          <type>jar</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>knife</name>
+          <color>#a04020</color>
+          <type>knife</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>ladle</name>
+          <color>#2040a0</color>
+          <type>ladle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>pasta_server</name>
+          <color>#5ffffd</color>
+          <type>pasta_server</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>small_knife</name>
+          <color>#95041d</color>
+          <type>small_knife</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>spoon</name>
+          <color>#d0c0c0</color>
+          <type>spoon</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2024-09-07 03:13:35.295776+00:00</dumped>
+  </meta>
+  <image id="0" name="dataset/corkscrew/0-01-V1-B.png" width="128" height="128">
+    <box label="corkscrew" source="semi-auto" occluded="0" xtl="40.48" ytl="14.18" xbr="94.37" ybr="121.78" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="dataset/corkscrew/0-01-V1-W.png" width="128" height="128">
+    <box label="corkscrew" source="semi-auto" occluded="0" xtl="41.05" ytl="16.46" xbr="85.53" ybr="112.22" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="dataset/corkscrew/0-01-V2-B.png" width="128" height="128">
+    <box label="corkscrew" source="semi-auto" occluded="0" xtl="43.47" ytl="15.71" xbr="87.47" ybr="110.71" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="dataset/corkscrew/0-01-V2-W.png" width="128" height="128">
+    <box label="corkscrew" source="semi-auto" occluded="0" xtl="41.83" ytl="-2.58" xbr="85.83" ybr="120.35" rotation="92.30" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="dataset/dinner_plate/1-02-V1-B.png" width="128" height="128">
+    <box label="dinner_plate" source="semi-auto" occluded="0" xtl="15.89" ytl="26.48" xbr="108.54" ybr="112.28" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="dataset/dinner_plate/1-02-V1-W.png" width="128" height="128">
+    <box label="dinner_plate" source="semi-auto" occluded="0" xtl="29.36" ytl="44.98" xbr="97.96" ybr="108.78" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="dataset/dinner_plate/1-02-V2-B.png" width="128" height="128">
+    <box label="dinner_plate" source="semi-auto" occluded="0" xtl="18.16" ytl="27.66" xbr="107.96" ybr="109.96" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="dataset/dinner_plate/1-02-V2-W.png" width="128" height="128">
+    <box label="dinner_plate" source="semi-auto" occluded="0" xtl="21.49" ytl="44.80" xbr="118.70" ybr="85.60" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="dataset/fork/2-03-V1-B.png" width="128" height="128">
+    <box label="fork" source="semi-auto" occluded="0" xtl="46.08" ytl="23.83" xbr="78.80" ybr="127.85" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="dataset/fork/2-03-V1-W.png" width="128" height="128">
+    <box label="fork" source="semi-auto" occluded="0" xtl="45.43" ytl="13.61" xbr="77.43" ybr="117.61" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="dataset/fork/2-03-V2-B.png" width="128" height="128">
+    <box label="fork" source="semi-auto" occluded="0" xtl="47.74" ytl="23.62" xbr="79.74" ybr="127.62" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="dataset/fork/2-03-V2-W.png" width="128" height="128">
+    <box label="fork" source="semi-auto" occluded="0" xtl="50.81" ytl="-4.71" xbr="82.81" ybr="116.40" rotation="91.70" z_order="0">
+    </box>
+  </image>
+  <image id="12" name="dataset/glass/3-04-V1-B.png" width="128" height="128">
+    <box label="glass" source="semi-auto" occluded="0" xtl="40.60" ytl="26.79" xbr="86.40" ybr="116.95" z_order="0">
+    </box>
+  </image>
+  <image id="13" name="dataset/glass/3-04-V1-W.png" width="128" height="128">
+    <box label="glass" source="semi-auto" occluded="0" xtl="41.86" ytl="10.12" xbr="86.86" ybr="115.54" rotation="90.80" z_order="0">
+    </box>
+  </image>
+  <image id="14" name="dataset/glass/3-04-V2-B.png" width="128" height="128">
+    <box label="glass" source="semi-auto" occluded="0" xtl="40.30" ytl="-6.99" xbr="88.76" ybr="117.92" rotation="90.80" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="dataset/glass/3-04-V2-W.png" width="128" height="128">
+    <box label="glass" source="semi-auto" occluded="0" xtl="28.05" ytl="-5.92" xbr="76.05" ybr="100.97" rotation="90.80" z_order="0">
+    </box>
+  </image>
+  <image id="16" name="dataset/jar/4-05-V1-B.png" width="128" height="128">
+    <box label="jar" source="semi-auto" occluded="0" xtl="45.62" ytl="5.77" xbr="98.11" ybr="123.65" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="dataset/jar/4-05-V1-W.png" width="128" height="128">
+    <box label="jar" source="semi-auto" occluded="0" xtl="36.18" ytl="-7.11" xbr="88.18" ybr="112.89" rotation="91.80" z_order="0">
+    </box>
+  </image>
+  <image id="18" name="dataset/jar/4-05-V2-B.png" width="128" height="128">
+    <box label="jar" source="semi-auto" occluded="0" xtl="49.27" ytl="5.93" xbr="101.27" ybr="117.93" rotation="2.20" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="dataset/jar/4-05-V2-W.png" width="128" height="128">
+    <box label="jar" source="semi-auto" occluded="0" xtl="34.96" ytl="2.12" xbr="86.96" ybr="114.12" rotation="94.70" z_order="0">
+    </box>
+  </image>
+  <image id="20" name="dataset/knife/5-06-V1-B.png" width="128" height="128">
+    <box label="knife" source="semi-auto" occluded="0" xtl="13.67" ytl="51.12" xbr="126.26" ybr="74.44" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="dataset/knife/5-06-V1-W.png" width="128" height="128">
+    <box label="knife" source="semi-auto" occluded="0" xtl="-3.35" ytl="56.27" xbr="137.67" ybr="79.27" rotation="64.80" z_order="0">
+    </box>
+  </image>
+  <image id="22" name="dataset/knife/5-06-V2-B.png" width="128" height="128">
+    <box label="knife" source="semi-auto" occluded="0" xtl="10.19" ytl="47.93" xbr="133.54" ybr="81.41" rotation="87.90" z_order="0">
+    </box>
+  </image>
+  <image id="23" name="dataset/knife/5-06-V2-W.png" width="128" height="128">
+    <box label="knife" source="semi-auto" occluded="0" xtl="-0.41" ytl="43.44" xbr="123.98" ybr="76.44" rotation="23.90" z_order="0">
+    </box>
+  </image>
+  <image id="24" name="dataset/ladle/6-07-V1-B.png" width="128" height="128">
+    <box label="ladle" source="semi-auto" occluded="0" xtl="33.63" ytl="6.72" xbr="96.66" ybr="125.34" z_order="0">
+    </box>
+  </image>
+  <image id="25" name="dataset/ladle/6-07-V1-W.png" width="128" height="128">
+    <box label="ladle" source="semi-auto" occluded="0" xtl="30.32" ytl="5.86" xbr="93.32" ybr="123.86" rotation="271.20" z_order="0">
+    </box>
+  </image>
+  <image id="26" name="dataset/ladle/6-07-V2-B.png" width="128" height="128">
+    <box label="ladle" source="semi-auto" occluded="0" xtl="35.69" ytl="4.74" xbr="98.69" ybr="122.74" rotation="357.50" z_order="0">
+    </box>
+  </image>
+  <image id="27" name="dataset/ladle/6-07-V2-W.png" width="128" height="128">
+    <box label="ladle" source="semi-auto" occluded="0" xtl="34.00" ytl="-7.25" xbr="97.00" ybr="122.99" rotation="280.50" z_order="0">
+    </box>
+  </image>
+  <image id="28" name="dataset/pasta_server/7-08-V1-B.png" width="128" height="128">
+    <box label="pasta_server" source="semi-auto" occluded="0" xtl="1.56" ytl="47.53" xbr="123.10" ybr="82.06" z_order="0">
+    </box>
+  </image>
+  <image id="29" name="dataset/pasta_server/7-08-V1-W.png" width="128" height="128">
+    <box label="pasta_server" source="semi-auto" occluded="0" xtl="7.71" ytl="41.84" xbr="128.71" ybr="75.84" rotation="65.60" z_order="0">
+    </box>
+  </image>
+  <image id="30" name="dataset/pasta_server/7-08-V2-B.png" width="128" height="128">
+    <box label="pasta_server" source="semi-auto" occluded="0" xtl="21.44" ytl="45.53" xbr="116.54" ybr="79.53" rotation="93.80" z_order="0">
+    </box>
+  </image>
+  <image id="31" name="dataset/pasta_server/7-08-V2-W.png" width="128" height="128">
+    <box label="pasta_server" source="semi-auto" occluded="0" xtl="1.61" ytl="48.89" xbr="118.26" ybr="82.89" rotation="82.10" z_order="0">
+    </box>
+  </image>
+  <image id="32" name="dataset/small_knife/8-09-V1-B.png" width="128" height="128">
+    <box label="small_knife" source="semi-auto" occluded="0" xtl="0.22" ytl="44.39" xbr="126.69" ybr="65.92" z_order="0">
+    </box>
+  </image>
+  <image id="33" name="dataset/small_knife/8-09-V1-W.png" width="128" height="128">
+    <box label="small_knife" source="semi-auto" occluded="0" xtl="0.00" ytl="49.00" xbr="126.00" ybr="70.00" rotation="265.70" z_order="0">
+    </box>
+  </image>
+  <image id="34" name="dataset/small_knife/8-09-V2-B.png" width="128" height="128">
+    <box label="small_knife" source="semi-auto" occluded="0" xtl="1.00" ytl="50.11" xbr="127.00" ybr="71.11" rotation="265.70" z_order="0">
+    </box>
+  </image>
+  <image id="35" name="dataset/small_knife/8-09-V2-W.png" width="128" height="128">
+    <box label="small_knife" source="semi-auto" occluded="0" xtl="-2.69" ytl="53.52" xbr="123.31" ybr="74.52" rotation="265.70" z_order="0">
+    </box>
+  </image>
+  <image id="36" name="dataset/spoon/9-10-V1-B.png" width="128" height="128">
+    <box label="spoon" source="semi-auto" occluded="0" xtl="50.67" ytl="13.45" xbr="81.62" ybr="122.65" z_order="0">
+    </box>
+  </image>
+  <image id="37" name="dataset/spoon/9-10-V1-W.png" width="128" height="128">
+    <box label="spoon" source="semi-auto" occluded="0" xtl="48.98" ytl="15.30" xbr="78.98" ybr="124.30" z_order="0">
+    </box>
+  </image>
+  <image id="38" name="dataset/spoon/9-10-V2-B.png" width="128" height="128">
+    <box label="spoon" source="semi-auto" occluded="0" xtl="53.71" ytl="10.21" xbr="83.71" ybr="119.21" z_order="0">
+    </box>
+  </image>
+  <image id="39" name="dataset/spoon/9-10-V2-W.png" width="128" height="128">
+    <box label="spoon" source="semi-auto" occluded="0" xtl="53.82" ytl="19.12" xbr="83.82" ybr="128.00" z_order="0">
+    </box>
+  </image>
+</annotations>
